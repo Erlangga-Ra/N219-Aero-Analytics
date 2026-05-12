@@ -29,7 +29,7 @@ st.sidebar.title("✈️ N219 CONTROL")
 st.sidebar.markdown("---")
 
 # Dropdown tetap untuk TRIP (karena pilihannya terbatas)
-trip_val = st.sidebar.selectbox("Konfigurasi TRIP", [0, 6, 12], 
+trip_val = st.sidebar.selectbox("Konfigurasi TRIP", [0, 6, 12, 17], 
                                 format_func=lambda x: "NO VG" if x==0 else f"TRIP {x}")
 
 # GANTI SLIDER MENJADI NUMBER INPUT (KETIK MANUAL)
